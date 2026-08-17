@@ -1,6 +1,12 @@
 {
-  "running": false,
-  "last_processed_candle": {},
+  "running": true,
+  "last_processed_candle": {
+    "BTCUSDT": 1786960800000,
+    "ETHUSDT": 1786960800000,
+    "SOLUSDT": 1786960800000,
+    "BNBUSDT": 1786960800000,
+    "XRPUSDT": 1786960800000
+  },
   "coins": {
     "BTCUSDT": {
       "cash": 22.0,
