@@ -41,7 +41,7 @@ TRAILING_ACTIVATION_R = 1.0
 FEE_RATE = 0.001
 SLIPPAGE_RATE = 0.0005
 
-API_BASE = "https://api.binance.com/api/v3"
+API_BASE = "https://data-api.binance.vision/api/v3"
 TIMEOUT = 15
 STATE_FILE = Path(__file__).resolve().parent / "portfolio_state.json"
 

@@ -1,5 +1,5 @@
 {
-  "running": true,
+  "running": false,
   "last_processed_candle": {},
   "coins": {
     "BTCUSDT": {
