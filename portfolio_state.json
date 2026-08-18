@@ -1,5 +1,5 @@
 {
-  "running": true,
+  "running": false,
   "last_processed_candle": {
     "BTCUSDT": 1787085900000,
     "ETHUSDT": 1787085900000,
