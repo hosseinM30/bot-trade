@@ -1,11 +1,11 @@
 {
   "running": true,
   "last_processed_candle": {
-    "BTCUSDT": 1787208300000,
-    "ETHUSDT": 1787208300000,
-    "SOLUSDT": 1787208300000,
-    "BNBUSDT": 1787208300000,
-    "XRPUSDT": 1787208300000
+    "BTCUSDT": 1787211000000,
+    "ETHUSDT": 1787211000000,
+    "SOLUSDT": 1787211000000,
+    "BNBUSDT": 1787211000000,
+    "XRPUSDT": 1787211000000
   },
   "coins": {
     "BTCUSDT": {
@@ -37,7 +37,7 @@
         "stop_price": 1.1040129479852407,
         "initial_stop_price": 1.1040129479852407,
         "target_price": 1.1254604200245986,
-        "peak_price": 1.11205575,
+        "peak_price": 1.1129,
         "entry_time": "2026-08-20T07:11:43+00:00"
       },
       "trades": [
