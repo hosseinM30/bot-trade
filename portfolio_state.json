@@ -1,25 +1,16 @@
 {
   "running": true,
   "last_processed_candle": {
-    "BTCUSDT": 1787716800000,
-    "ETHUSDT": 1787716800000,
-    "SOLUSDT": 1787716800000,
-    "BNBUSDT": 1787716800000,
-    "XRPUSDT": 1787716800000
+    "BTCUSDT": 1787719500000,
+    "ETHUSDT": 1787719500000,
+    "SOLUSDT": 1787719500000,
+    "BNBUSDT": 1787719500000,
+    "XRPUSDT": 1787719500000
   },
   "coins": {
     "BTCUSDT": {
-      "cash": 0.0,
-      "position": {
-        "amount": 0.0002772544083601365,
-        "entry_price": 79270.15526999999,
-        "entry_value": 22.0,
-        "stop_price": 78864.58523295626,
-        "initial_stop_price": 78864.58523295626,
-        "target_price": 79946.10533173954,
-        "peak_price": 79270.15526999999,
-        "entry_time": "2026-08-26T02:41:04+00:00"
-      },
+      "cash": 21.822084636834024,
+      "position": null,
       "trades": [
         {
           "time": "2026-08-26T02:41:04+00:00",
@@ -29,21 +20,23 @@
           "value_usd": 22.0,
           "fee_usd": 0.022,
           "reason": "SMA10>30 cross + trend + RSI 60.8 + volume"
+        },
+        {
+          "time": "2026-08-26T05:01:10+00:00",
+          "type": "SELL",
+          "price": 78786.587,
+          "amount": 0.0002772544083601365,
+          "value_usd": 21.822084636834024,
+          "fee_usd": 0.021843928565399424,
+          "pnl_usd": -0.177915363165976,
+          "pnl_pct": -0.8087061962089819,
+          "reason": "ATR stop loss"
         }
       ]
     },
     "ETHUSDT": {
-      "cash": 0.0,
-      "position": {
-        "amount": 0.008962189162134537,
-        "entry_price": 2469.3140399999997,
-        "entry_value": 22.152612139333982,
-        "stop_price": 2455.9656307926593,
-        "initial_stop_price": 2455.9656307926593,
-        "target_price": 2491.5613886789,
-        "peak_price": 2472.86,
-        "entry_time": "2026-08-26T02:41:04+00:00"
-      },
+      "cash": 21.986184758220947,
+      "position": null,
       "trades": [
         {
           "time": "2026-08-20T15:46:04+00:00",
@@ -73,6 +66,17 @@
           "value_usd": 22.152612139333982,
           "fee_usd": 0.022152612139333984,
           "reason": "SMA10>30 cross + trend + RSI 61.9 + volume"
+        },
+        {
+          "time": "2026-08-26T05:01:10+00:00",
+          "type": "SELL",
+          "price": 2455.67155,
+          "amount": 0.008962189162134537,
+          "value_usd": 21.986184758220947,
+          "fee_usd": 0.02200819295117212,
+          "pnl_usd": -0.166427381113035,
+          "pnl_pct": -0.7512765540526394,
+          "reason": "ATR stop loss"
         }
       ]
     },
