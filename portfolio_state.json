@@ -1,21 +1,49 @@
 {
   "running": true,
   "last_processed_candle": {
-    "BTCUSDT": 1787706000000,
-    "ETHUSDT": 1787706000000,
-    "SOLUSDT": 1787706000000,
-    "BNBUSDT": 1787706000000,
-    "XRPUSDT": 1787706000000
+    "BTCUSDT": 1787710500000,
+    "ETHUSDT": 1787710500000,
+    "SOLUSDT": 1787710500000,
+    "BNBUSDT": 1787710500000,
+    "XRPUSDT": 1787710500000
   },
   "coins": {
     "BTCUSDT": {
-      "cash": 22.0,
-      "position": null,
-      "trades": []
+      "cash": 0.0,
+      "position": {
+        "amount": 0.0002772544083601365,
+        "entry_price": 79270.15526999999,
+        "entry_value": 22.0,
+        "stop_price": 78864.58523295626,
+        "initial_stop_price": 78864.58523295626,
+        "target_price": 79946.10533173954,
+        "peak_price": 79270.15526999999,
+        "entry_time": "2026-08-26T02:41:04+00:00"
+      },
+      "trades": [
+        {
+          "time": "2026-08-26T02:41:04+00:00",
+          "type": "BUY",
+          "price": 79270.15526999999,
+          "amount": 0.0002772544083601365,
+          "value_usd": 22.0,
+          "fee_usd": 0.022,
+          "reason": "SMA10>30 cross + trend + RSI 60.8 + volume"
+        }
+      ]
     },
     "ETHUSDT": {
-      "cash": 22.152612139333982,
-      "position": null,
+      "cash": 0.0,
+      "position": {
+        "amount": 0.008962189162134537,
+        "entry_price": 2469.3140399999997,
+        "entry_value": 22.152612139333982,
+        "stop_price": 2455.9656307926593,
+        "initial_stop_price": 2455.9656307926593,
+        "target_price": 2491.5613886789,
+        "peak_price": 2469.3140399999997,
+        "entry_time": "2026-08-26T02:41:04+00:00"
+      },
       "trades": [
         {
           "time": "2026-08-20T15:46:04+00:00",
@@ -36,6 +64,15 @@
           "pnl_usd": 0.1526121393339821,
           "pnl_pct": 0.6936915424271913,
           "reason": "trailing stop"
+        },
+        {
+          "time": "2026-08-26T02:41:04+00:00",
+          "type": "BUY",
+          "price": 2469.3140399999997,
+          "amount": 0.008962189162134537,
+          "value_usd": 22.152612139333982,
+          "fee_usd": 0.022152612139333984,
+          "reason": "SMA10>30 cross + trend + RSI 61.9 + volume"
         }
       ]
     },
