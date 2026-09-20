@@ -1,16 +1,25 @@
 {
   "running": true,
   "last_processed_candle": {
-    "BTCUSDT": 1789885800000,
-    "ETHUSDT": 1789885800000,
-    "SOLUSDT": 1789885800000,
-    "BNBUSDT": 1789885800000,
-    "XRPUSDT": 1789885800000
+    "BTCUSDT": 1789903800000,
+    "ETHUSDT": 1789903800000,
+    "SOLUSDT": 1789903800000,
+    "BNBUSDT": 1789903800000,
+    "XRPUSDT": 1789903800000
   },
   "coins": {
     "BTCUSDT": {
-      "cash": 21.73873958570379,
-      "position": null,
+      "cash": 0.0,
+      "position": {
+        "amount": 0.00026977912431669474,
+        "entry_price": 80499.18948,
+        "entry_value": 21.73873958570379,
+        "stop_price": 80306.15843089452,
+        "initial_stop_price": 80306.15843089452,
+        "target_price": 80820.90789517581,
+        "peak_price": 80499.18948,
+        "entry_time": "2026-09-20T11:51:49+00:00"
+      },
       "trades": [
         {
           "time": "2026-08-26T02:41:04+00:00",
@@ -51,6 +60,15 @@
           "pnl_usd": -0.08334505113023383,
           "pnl_pct": -0.38192983171531514,
           "reason": "ATR stop loss"
+        },
+        {
+          "time": "2026-09-20T11:51:49+00:00",
+          "type": "BUY",
+          "price": 80499.18948,
+          "amount": 0.00026977912431669474,
+          "value_usd": 21.73873958570379,
+          "fee_usd": 0.02173873958570379,
+          "reason": "SMA10>30 cross + trend + RSI 50.9 + volume"
         }
       ]
     },
